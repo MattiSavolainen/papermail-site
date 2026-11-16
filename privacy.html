@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Papermail privacy policy</title>
+  <meta name="description" content="What Papermail accesses, where it stores it, and who else sees it.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Privacy policy</h1>
+    <p class="lede">Last updated 16 November 2026</p>
+
+    <p>Papermail is a macOS email app. It runs on your Mac and has no server of its own, so the developer never receives your mail, your contacts or your sign-in details.</p>
+
+    <h2>What Papermail accesses</h2>
+    <p>For a Gmail account, Papermail asks Google for two permissions:</p>
+    <ul>
+      <li><strong>Read, compose and modify mail</strong> (<code>gmail.modify</code>): to download your messages, and to archive, label, trash and mark them read when you ask.</li>
+      <li><strong>Send mail</strong> (<code>gmail.send</code>): to send the messages you write.</li>
+    </ul>
+    <p>Outlook accounts sign in with Microsoft and use IMAP and SMTP. iCloud accounts use an app-specific password you create at Apple.</p>
+
+    <h2>Where your data is stored</h2>
+    <ul>
+      <li>Messages, attachments and the search index live in a database on your Mac.</li>
+      <li>Sign-in tokens and passwords live in the macOS Keychain.</li>
+    </ul>
+    <p>Papermail copies none of this to any server. Removing an account in Papermail deletes its local mail and its Keychain entry, and for Gmail asks Google to revoke Papermail's access. Your mail itself stays with your provider.</p>
+
+    <h2>Who else sees your data</h2>
+    <p>Your mail provider (Google, Microsoft or Apple), as it always does.</p>
+    <p>AI sorting is off until you add a key for an AI provider (Anthropic, OpenAI, Google Gemini, xAI, or a server you run yourself). With a key set, Papermail sends that provider the sender, subject and a preview of up to 500 characters for each message it sorts, using your key and under that provider's terms. It never sends full message bodies or attachments.</p>
+    <p>Papermail does not sell your data, show ads, or use your mail to train AI models.</p>
+
+    <h2>Google user data</h2>
+    <p>Papermail's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+    <h2>Revoking access</h2>
+    <p>Remove the account in Papermail's Settings, or revoke Papermail at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+    <footer>
+      <a href="index.html">Papermail</a>
+    </footer>
+  </main>
+</body>
+</html>
